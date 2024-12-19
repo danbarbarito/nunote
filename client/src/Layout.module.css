@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.headerLink {
+  color: rgb(135, 135, 135) !important;
+  text-decoration: none;
+}
+
+.headerLink:hover {
+  color: rgb(0, 0, 0) !important;
+}

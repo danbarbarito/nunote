@@ -1,0 +1,72 @@
+.editor {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  z-index: 20;
+  background-color: rgb(7, 6, 6);
+  background-image: linear-gradient(
+    43deg,
+    #a8b8ff 0%,
+    #ea96e4 46%,
+    #ffe5b6 100%
+  );
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+.textarea {
+  min-height: 200px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: monospace;
+}
+
+.controlsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.submitButton {
+  min-width: 150px;
+  padding: 1rem;
+  background-color: #0f51ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  height: fit-content;
+}
+
+.submitButton:hover {
+  background-color: #0b3ec9;
+}
+
+.submitButton:active {
+  background-color: #0d3191;
+}
+
+.submitButton:disabled {
+  background-color: #8bc5ff;
+  cursor: not-allowed;
+}
+
+.submitButtonHint {
+  font-size: 0.6rem;
+  color: #f0f0f0;
+}
+
+.preserveTagsContainer {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 0.7rem;
+}

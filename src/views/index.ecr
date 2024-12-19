@@ -1,0 +1,18 @@
+<html>
+<head>
+  <title>nunote</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    <%= Datapack::Data["client/dist/assets/index.css"].data %>
+  </style>
+  <link rel="icon" type="image/png" href="<%= Datapack::Data["client/src/assets/favicon.txt"].data %>" />
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script type="module">
+    <%= Datapack::Data["client/dist/assets/index.js"].data %>
+  </script>
+</body>
+</html>

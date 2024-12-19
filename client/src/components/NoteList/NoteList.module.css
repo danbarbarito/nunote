@@ -1,0 +1,12 @@
+.notesList {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.noNotesFound {
+  text-align: center;
+  margin-top: 2rem;
+  color: #6c757d;
+  font-style: italic;
+}

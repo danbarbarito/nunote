@@ -1,0 +1,9 @@
+.tagsInput {
+  flex: 1;
+}
+
+@media only screen and (min-width: 1024px) {
+  .tagsInput {
+    max-width: 600px;
+  }
+}

@@ -1,0 +1,15 @@
+#!/bin/bash
+set -e
+
+# Navigate to client directory
+cd client
+
+# Run pnpm build
+echo "Running client build..."
+pnpm build
+
+# Return to root directory
+cd ..
+
+# Add all client directory changes to the commit
+git add client/

@@ -1,0 +1,28 @@
+name: nunote
+version: 0.1.0
+
+targets:
+  nunote:
+    main: src/nunote.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  datapack:
+    github: wyhaines/datapack.cr
+# authors:
+#   - name <email@example.com>
+
+# description: |
+#   Short description of nunote
+
+# dependencies:
+#   pg:
+#     github: will/crystal-pg
+#     version: "~> 0.5"
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+# license: MIT
